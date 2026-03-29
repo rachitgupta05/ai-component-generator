@@ -24,22 +24,6 @@ An AI-powered frontend application that generates reusable UI components from us
 
 ---
 
-## 📁 Project Structure
-
-ai-component-generator/
-│
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── App.jsx
-│   └── main.jsx
-│
-├── public/
-├── .env
-└── README.md
-
----
-
 ## ⚙️ Environment Variables
 
 Create a `.env` file in the root directory:
@@ -55,6 +39,7 @@ VITE_AI_API_KEY=your_api_key_here
 ### 1. Clone the repository
 
 git clone https://github.com/rachitgupta05/ai-component-generator.git
+
 cd ai-component-generator
 
 ### 2. Install dependencies
