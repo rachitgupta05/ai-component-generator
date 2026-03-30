@@ -1,16 +1,102 @@
-# React + Vite
+# 🤖 AI Component Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered frontend application that generates reusable UI components from user prompts. Just describe the component you need, and the app instantly produces clean and usable code.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+* ✨ Generate UI components using AI prompts
+* ⚡ Instant code generation
+* 🎯 Clean and reusable code output
+* 📋 Copy generated code easily
+* 🔄 Real-time response display
+* 🌐 Responsive user interface
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Vite
+* Tailwind CSS
+* AI API (OpenAI / Gemini)
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in the root directory:
+
+VITE_AI_API_KEY=your_api_key_here
+
+> ⚠️ Note: API key is exposed in frontend. Use a backend for production.
+
+---
+
+## 💻 Installation & Setup
+
+### 1. Clone the repository
+
+git clone https://github.com/rachitgupta05/ai-component-generator.git
+
+cd ai-component-generator
+
+### 2. Install dependencies
+
+npm install
+
+### 3. Run the project
+
+npm run dev
+
+---
+
+## 🧠 How It Works
+
+1. Enter a prompt (e.g., "Create a login form")
+2. App sends request to AI API
+3. AI generates UI component code
+4. Output is displayed instantly
+
+---
+
+## 📸 Screenshots
+
+<img width="1917" height="921" alt="image" src="https://github.com/user-attachments/assets/2c141344-fa97-44c2-a49e-cf3e700b9831" />
+
+
+---
+
+## 🌍 Deployment
+
+* Frontend: Vercel 
+
+---
+
+## 🔐 Security Note
+
+* API key is stored in `.env`
+* Still exposed in frontend
+* Recommended: Use backend for production
+
+---
+
+## 📌 Future Improvements
+
+* 🔧 Add backend for secure API calls
+* 🎨 Live preview of components
+* 📦 Download code feature
+* 🧪 Support for multiple frameworks
+
+---
+
+## 👨‍💻 Author
+
+**Rachit Gupta**
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a ⭐ on GitHub!
